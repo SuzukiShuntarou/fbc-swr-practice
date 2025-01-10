@@ -10,7 +10,7 @@ function App() {
 
   if (error) return <div>Failed to load.</div>;
   if (isLoading) return <div>loading...</div>;
-  return <>{data && <p>Status : {data.description}</p>}</>;
+  return <>{<p>Status : {data.description}</p>}</>;
 }
 
 export default App;
